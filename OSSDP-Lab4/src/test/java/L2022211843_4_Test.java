@@ -29,7 +29,8 @@ public class L2022211843_4_Test {
     public void testMaximumGap2() {
         Solution4 solution = new Solution4();
         int[] nums = {10};
-        Assert.assertEquals(0, solution.maximumGap(nums));  // 输出 0
+        //为完成第七项再次执行自动化测试，修改代码，使得测试不通过
+        Assert.assertEquals(1, solution.maximumGap(nums));  // 输出 0
     }
 
     /**
